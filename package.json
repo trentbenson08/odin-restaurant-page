@@ -1,0 +1,24 @@
+{
+  "name": "odin-restaurant-page",
+  "version": "1.0.0",
+  "description": "![alt text](./misc/Screenshot%202023-04-30%20at%2016-53-13%20Tic-Tac-Toe.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trentbenson08/odin-restaurant-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trentbenson08/odin-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/trentbenson08/odin-restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.0.2"
+  }
+}
