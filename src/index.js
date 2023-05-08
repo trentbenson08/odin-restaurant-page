@@ -1,7 +1,20 @@
 /* eslint-disable no-console */
 
-// 3 "pages" on one actual html file
-// init on the page, the header and the footer are always the same.
-// the home page is the automatically displayed first
-// user selects a page in the navbar
+import renderHome from "./home-page";
+import renderMenu from "./menu-page";
+import renderCont from "./contact-page";
 
+const article = document.querySelector('#article-container')
+
+renderHome(article)
+renderMenu(article)
+renderCont(article)
+
+
+function clearArticle (a){
+  while (a.firstChild){
+    a.removeChild(a.firstChild);
+  }
+}
+
+clearArticle(article)

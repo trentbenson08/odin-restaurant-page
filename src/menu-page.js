@@ -1,6 +1,6 @@
 const page = `
 <div id="menu" class="menu">
-Contact
+Menu Section
 </div>
 `
 
