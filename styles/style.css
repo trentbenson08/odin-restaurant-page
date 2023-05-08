@@ -1,0 +1,103 @@
+
+#content{
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 8rem 2rem 1fr 2rem;
+}
+
+
+
+
+
+/* HEADER */
+#header{
+  background-color: lightblue;
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+}
+#header-title,
+#header-nav,
+#header-acct{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/* MENU */
+#nav{
+  background-color: aliceblue;
+}
+#nav ul{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-tab{
+  color: black;
+}
+.nav-tab:link{
+  text-decoration: none;
+}
+
+
+
+
+
+/* ARTICLE */
+#article{
+  display: flex;
+  justify-content: center;
+}
+#article-container{
+  background-color: lightpink;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+
+/* HOME */
+#hero.home{
+
+  padding: 2rem;
+
+  height: 40rem;
+  border: 1px solid black;
+}
+#about.home{
+
+  padding: 2rem;
+
+  height: 20rem;
+  border: 1px solid black;
+}
+
+
+/* MENU */
+
+
+/* CONTACT */
+
+
+
+
+#footer{
+  background-color: lightgray;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+
+
+
+
+

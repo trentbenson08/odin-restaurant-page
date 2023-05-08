@@ -1,6 +1,6 @@
 # Restaurant Page
 
-![alt text](./misc/Screenshot%202023-04-30%20at%2016-53-13%20Tic-Tac-Toe.png)
+![alt text](./misc/)
 
 ## Description
 
