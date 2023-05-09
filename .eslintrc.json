@@ -10,7 +10,10 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "ignorePatterns": ["main.js"],
+    "ignorePatterns": [
+        "*.bundle.js"
+    ],
     "rules": {
+        "quotes":"warn"
     }
 }

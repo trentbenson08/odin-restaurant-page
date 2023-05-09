@@ -1,14 +1,13 @@
 /* eslint-disable no-console */
 
-import renderHome from "./home-page";
-import renderMenu from "./menu-page";
-import renderCont from "./contact-page";
+import renderHome from './home-page';
+import renderMenu from './menu-page';
+import renderCont from './contact-page';
 
-const article = document.querySelector('#article-container')
 
-renderHome(article)
-renderMenu(article)
-renderCont(article)
+renderHome(document)
+// renderMenu(document)
+// renderCont(document)
 
 
 function clearArticle (a){
@@ -17,4 +16,3 @@ function clearArticle (a){
   }
 }
 
-clearArticle(article)

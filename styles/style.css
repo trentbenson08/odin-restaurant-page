@@ -55,9 +55,8 @@
 }
 #article-container{
   background-color: lightpink;
-  width: 80vw;
+  width: 90vw;
   display: flex;
-  justify-content: center;
   flex-direction: column;
 
 }
@@ -66,19 +65,40 @@
 /* HOME */
 #hero.home{
 
-  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   height: 40rem;
   border: 1px solid black;
 }
-#about.home{
-
-  padding: 2rem;
-
-  height: 20rem;
-  border: 1px solid black;
+#hero.home img{
+  height: 99%;
+  border: 2px solid black;
+}
+#hero.home .text{
+  position: absolute;
+  left: 850px;
+  top: 500px;
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 2px 2px 2px black;
 }
 
+#about.home{
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+  height: 100%;
+  border: 1px solid black;
+  font-size: 1.25rem;
+}
+#about.home #spacer{
+  width: 150%;
+  height: 100%;
+  background-color: aqua;
+}
 
 /* MENU */
 

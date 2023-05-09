@@ -4,6 +4,6 @@ Contact
 </div>
 `
 
-export default function render(article){
-  article.insertAdjacentHTML("beforeend", page);
+export default function render(doc){
+  
 }
