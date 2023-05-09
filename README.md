@@ -1,6 +1,6 @@
 # Restaurant Page
 
-![alt text](./misc/)
+![alt text](./screenshot_5-9-2023.png)
 
 ## Description
 
