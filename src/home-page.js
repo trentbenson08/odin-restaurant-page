@@ -1,14 +1,5 @@
 import cafeInterior from './imgs/interior.jpg';
 
-const page = `
-<div id="hero" class="home">
-Hero Section, Page: Home
-</div>
-<div id="about" class="home">
-About Section, Page: Home
-</div>
-`
-
 export default function render(doc){
   const article = doc.querySelector('#article-container');
 
@@ -24,7 +15,7 @@ export default function render(doc){
   image.class = 'home';
 
   heroText.className = 'text';
-  heroText.innerText = 'Welcome, ';
+  heroText.innerText = 'Welcome';
 
 
   hero.append(heroText)

@@ -3,16 +3,11 @@
 import renderHome from './home-page';
 import renderMenu from './menu-page';
 import renderCont from './contact-page';
+import clearPage from './clear';
 
 
-renderHome(document)
-// renderMenu(document)
+// renderHome(document)
+renderMenu(document)
 // renderCont(document)
 
-
-function clearArticle (a){
-  while (a.firstChild){
-    a.removeChild(a.firstChild);
-  }
-}
-
+// clearPage(document);

@@ -57,6 +57,7 @@
   background-color: lightpink;
   width: 90vw;
   display: flex;
+
   flex-direction: column;
 
 }
@@ -101,6 +102,25 @@
 }
 
 /* MENU */
+#menu.menu{
+  
+  margin: 2rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 25rem);
+
+  gap: 2rem;
+
+
+
+}
+.card{
+  background-color: aqua;
+  height: 20rem;
+}
+.card.menu img{
+  width: 10rem;
+}
 
 
 /* CONTACT */
