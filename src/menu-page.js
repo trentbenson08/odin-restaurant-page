@@ -1,13 +1,5 @@
 import americano from './imgs/americano.jpg';
 
-// <div id="menu" class="menu">         
-//   <div class="item menu">
-//     <img src="../src/imgs/americano.jpg" alt="">
-//     <div id="title" class="menu">Lorem Ipsum</div>
-//     <div id="info" class="menu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur error odio at eligendi obcaecati libero, debitis tempora nihil id ex!</div>
-//   </div>
-// </div>
-
 const menuItems = [
   {
     title: 'Americano',
