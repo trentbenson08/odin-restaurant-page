@@ -1,4 +1,7 @@
 import americano from './imgs/americano.jpg';
+import cappuccino from './imgs/cappuccino.jpg';
+import latte from './imgs/latte.jpg';
+import croissant from './imgs/croissant.jpg';
 
 const menuItems = [
   {
@@ -7,13 +10,18 @@ const menuItems = [
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur error odio at eligendi obcaecati libero, debitis tempora nihil id ex!'
   },
   {
-    title: 'Americano',
-    img: americano, 
+    title: 'Cappuccino',
+    img: cappuccino, 
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur error odio at eligendi obcaecati libero, debitis tempora nihil id ex!'
   },
   {
-    title: 'Americano',
-    img: americano, 
+    title: 'Latte',
+    img: latte, 
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur error odio at eligendi obcaecati libero, debitis tempora nihil id ex!'
+  },
+  {
+    title: 'Croissant',
+    img: croissant, 
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur error odio at eligendi obcaecati libero, debitis tempora nihil id ex!'
   }
 ]
