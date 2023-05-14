@@ -10,7 +10,6 @@
   height: 100vh; 
   display: grid;
   grid-template-rows: min-content 2rem 8fr 1.5rem;
-
   overflow: visible;
 }
 
@@ -19,11 +18,8 @@
   font-family: 'road race rough';
   color: #F3E9DC;
   text-shadow: black 2px 2px ;
-
   display: grid;
   grid-template-columns: 1fr 8fr 1fr;
-
-
 }
 #header.content-section{
   background-color: #6A041D;
