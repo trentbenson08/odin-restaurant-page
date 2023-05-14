@@ -9,8 +9,9 @@
 #content{
   height: 100vh; 
   display: grid;
-  grid-template-rows: 8rem 2rem 1fr 2rem;
+  grid-template-rows: 1fr 2rem 8fr 2rem;
   background-color: #F5EDF0;
+  overflow: visible;
 }
 
 
@@ -19,10 +20,10 @@
   font-family: 'road race rough';
   color: #F3E9DC;
   text-shadow: black 2px 2px ;
-  font-size: 6rem;
   background-color: #6A041D;
   display: grid;
   grid-template-columns: 1fr 8fr 1fr;
+  overflow: visible;
 
 }
 #header-title{
@@ -30,7 +31,10 @@
   justify-content: center;
   align-items: center;
   padding-top: 1.5rem;
+  grid-column: 2/3;
+  font-size: 4rem;
 }
+
 
 
 
@@ -155,7 +159,8 @@
 }
 .cont-item{
   display: flex;
-
+  justify-content: space-between;
+  gap: 1rem;
   padding: 1rem;
   margin: .5rem;
   background-color: #C08552;
@@ -163,8 +168,9 @@
   border: 1px solid #1C2321;
 }
 .info.cont{
-  text-indent: 2rem;
+  flex: 1 1 2rem;
 }
+
 
 
 
