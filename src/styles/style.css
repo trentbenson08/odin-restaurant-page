@@ -1,34 +1,44 @@
-
+@font-face {
+  font-family: 'road race outline';
+  src: url(../fonts/Road\ Race\ Outline.ttf);
+}
+@font-face {
+  font-family: 'road race rough';
+  src: url(../fonts/Road\ Race\ Rough.ttf);
+}
 #content{
-  height: 100vh;
+  height: 100vh; 
   display: grid;
   grid-template-rows: 8rem 2rem 1fr 2rem;
+  background-color: #F5EDF0;
 }
-
-
-
 
 
 /* HEADER */
 #header{
-  background-color: lightblue;
+  font-family: 'road race rough';
+  color: #F3E9DC;
+  text-shadow: black 2px 2px ;
+  font-size: 6rem;
+  background-color: #6A041D;
   display: grid;
   grid-template-columns: 1fr 8fr 1fr;
+
 }
-#header-title,
-#header-nav,
-#header-acct{
+#header-title{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 1.5rem;
 }
+
 
 
 
 
 /* MENU */
 #nav{
-  background-color: aliceblue;
+  background-color: #1C2321;
 }
 #nav ul{
   height: 100%;
@@ -38,7 +48,7 @@
   justify-content: space-around;
 }
 .nav-tab{
-  color: black;
+  color: #F3E9DC;
 }
 .nav-tab:link{
   text-decoration: none;
@@ -54,12 +64,10 @@
   justify-content: center;
 }
 #article-container{
-  background-color: lightpink;
   width: 90vw;
   display: flex;
-
   flex-direction: column;
-
+  background-color: #817E9F;
 }
 
 
@@ -71,16 +79,14 @@
   justify-content: center;
 
   height: 40rem;
-  border: 1px solid black;
+
 }
 #hero.home img{
   height: 99%;
-  border: 2px solid black;
+
 }
 #hero.home .text{
   position: absolute;
-  left: 850px;
-  top: 500px;
   font-size: 1.5rem;
   color: white;
   text-shadow: 2px 2px 2px black;
@@ -98,7 +104,7 @@
 #about.home #spacer{
   width: 150%;
   height: 100%;
-  background-color: aqua;
+  background-color: #C08552;
 }
 
 /* MENU */
@@ -115,7 +121,7 @@
 
 }
 .card{
-  background-color: aqua;
+  background-color: #C08552;
   height: 20rem;
 }
 .card.menu img{
@@ -129,15 +135,36 @@
 
 
 #footer{
-  background-color: lightgray;
+  color: #F5EDF0;
+  background-color: #1C2321;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   align-items: center;
 }
 
+#contact.cont{
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #F3E9DC;
+  text-shadow: #1C2321 2px 2px 5px;
+  font-size: 1.25rem;
+}
+.cont-item{
+  display: flex;
 
-
+  padding: 1rem;
+  margin: .5rem;
+  background-color: #C08552;
+  border-radius: .5rem;
+  border: 1px solid #1C2321;
+}
+.info.cont{
+  text-indent: 2rem;
+}
 
 
 
