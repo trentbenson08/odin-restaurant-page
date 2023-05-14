@@ -43,13 +43,11 @@ export default function render(doc){
     img.src = item.img;
 
     const title = doc.createElement('div');
-    title.id = 'title';
-    title.className = 'menu';
+    title.className = 'title menu';
     title.innerText = item.title;
 
     const desc = doc.createElement('div');
-    desc.id = 'info';
-    desc.className = 'menu';
+    desc.className = 'info menu';
     desc.innerText = item.description;
 
     card.append(img, title, desc);

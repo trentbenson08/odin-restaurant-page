@@ -15,7 +15,7 @@ export default function render(doc){
   image.class = 'home';
 
   heroText.className = 'text';
-  heroText.innerText = 'Welcome';
+  heroText.innerText = 'Welcome to an Authentic Italian Coffee Shop';
 
 
   hero.append(heroText)

@@ -1,10 +1,7 @@
-
-
 const contactDetails = [
   {label: 'Phone', info: '(123) 456-7890'},
   {label: 'Email', info: 'contact@cafeitalia.com'},
   {label: 'Address', info: '1234 1st Ave, New York, NY 12345'},
-
 ]
 
 export default function render(doc){
