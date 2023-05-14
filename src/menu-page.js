@@ -39,8 +39,12 @@ export default function render(doc){
     const card = doc.createElement('div');
     card.className = 'card menu';
 
+    const imgContainer = doc.createElement('div');
+
     const img = doc.createElement('img');
     img.src = item.img;
+
+    const infoContainer = doc.createElement('div');
 
     const title = doc.createElement('div');
     title.className = 'title menu';
@@ -50,8 +54,10 @@ export default function render(doc){
     desc.className = 'info menu';
     desc.innerText = item.description;
 
-    card.append(img, title, desc);
+    imgContainer.append(img);
+    infoContainer.append(title, desc);
+    card.append(imgContainer, infoContainer);
     menu.append(card);
-  })
+  });
   article.append(menu);
 }

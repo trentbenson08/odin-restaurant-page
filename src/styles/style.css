@@ -26,6 +26,9 @@
   overflow: visible;
 
 }
+#header.content-section{
+  min-height: 7rem;
+}
 #header-title{
   display: flex;
   justify-content: center;
@@ -33,6 +36,7 @@
   padding-top: 1.5rem;
   grid-column: 2/3;
   font-size: 4rem;
+  overflow: visible;
 }
 
 
@@ -102,13 +106,13 @@
   flex-direction: column;
   justify-content: flex-start;
 
-  height: 40rem;
+
 
 }
 #hero.home img{
   width: inherit;
   overflow: hidden;
-  border: 5px solid black;
+  border: 2px solid black;
 
 }
 #hero.home .text{
@@ -136,58 +140,48 @@
   font-size: 1.25rem;
 }
 #about.home #spacer{
-  width: 200rem;
-  height: 20rem;
+  width:  150px;
+  height: 300px;
+  object-fit: cover;
+  border: 2px solid black;
   background-color: #483C32;
 }
 
 /* MENU */
 #menu.menu{
-  
   margin: 2rem;
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, 25rem);
-
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 2rem;
-
-
-
 }
 .card{
+  display: flex;
   background-color: #483C32;
-  height: 20rem;
+  height: fit-content;
   padding: 1rem;
   border: 1px solid black;
   color: #F5EDF0;
   font-size: large;
+  gap: 1rem;
 }
 .card.menu img{
-  width: 10rem;
   border: 1px solid black;
-  border-radius: .1rem;
+  width:  100px;
+  height: 100px;
+  clip: rect(15px 15px 15px 15px);
+  object-fit: cover;
 }
 .title.menu{
   font-weight: 700;
 }
-
-/* CONTACT */
-
-
-
-
-#footer{
-  color: #F5EDF0;
-  background-color: #1C2321;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  align-items: center;
+.info.menu{
+  padding-top: 1rem;
+  padding-left: .25rem;
   font-size: .75rem;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
 }
 
+/* CONTACT */
 #contact.cont{
   height: 80%;
   display: flex;
@@ -196,7 +190,7 @@
   justify-content: center;
   color: #F3E9DC;
   text-shadow: #1C2321 2px 2px 5px;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 .cont-item{
   display: flex;
@@ -213,4 +207,16 @@
 }
 .info.cont{
   flex: 1 1 auto;
+}
+
+#footer{
+  color: #F5EDF0;
+  background-color: #1C2321;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  font-size: .75rem;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
